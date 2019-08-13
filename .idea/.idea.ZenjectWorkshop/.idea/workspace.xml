@@ -1,10 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="223" />
-    <option name="y" value="674" />
-    <option name="width" value="1179" />
-    <option name="height" value="685" />
+  <component name="ChangeListManager">
+    <list default="true" id="bf7e216a-1d21-4b2d-8850-76e6c78a5b23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ZenjectWorkshop/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZenjectWorkshop/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ZenjectWorkshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ZenjectWorkshop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameInstaller.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <marker date="1565699440910" expanded="true" signature="6:59" ph="..." />
+                <marker date="1565699440910" expanded="true" signature="103:373" ph="{...}" />
+                <marker date="1565699440910" expanded="true" signature="203:371" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/GameInstaller.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+              <folding>
+                <marker date="1540064997000" expanded="false" signature="6:32" ph="..." />
+                <marker date="1540064997000" expanded="true" signature="64:3485" ph="{...}" />
+                <marker date="1540064997000" expanded="true" signature="148:3483" ph="{...}" />
+                <marker date="1540064997000" expanded="true" signature="247:2804" ph="{...}" />
+                <marker date="1540064997000" expanded="true" signature="433:586" ph="/* We could just use FromMonoPoolableMemoryPool here instead, but ... */" />
+                <marker date="1540064997000" expanded="true" signature="1226:1379" ph="/* We could just use FromMonoPoolableMemoryPool here instead, but ... */" />
+                <marker date="1540064997000" expanded="true" signature="1644:1785" ph="/* Bullets are simple enough that we don't need to make a subcontainer for them ... */" />
+                <marker date="1540064997000" expanded="true" signature="2050:2203" ph="/* We could just use FromMonoPoolableMemoryPool here instead, but ... */" />
+                <marker date="1540064997000" expanded="true" signature="2858:3018" ph="{...}" />
+                <marker date="1540064997000" expanded="true" signature="3028:3145" ph="/* We could just use FromMonoPoolableMemoryPool above, but we have to use these instead ... */" />
+                <marker date="1540064997000" expanded="true" signature="3240:3260" ph="{...}" />
+                <marker date="1540064997000" expanded="true" signature="3359:3379" ph="{...}" />
+                <marker date="1540064997000" expanded="true" signature="3457:3477" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyFacade.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1444">
+              <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+              <folding>
+                <marker date="1540065015000" expanded="false" signature="6:32" ph="..." />
+                <marker date="1540065015000" expanded="true" signature="64:2008" ph="{...}" />
+                <marker date="1540065015000" expanded="true" signature="71:197" ph="/* Here we can add some high-level methods to give some info to other ... */" />
+                <marker date="1540065015000" expanded="true" signature="293:2006" ph="{...}" />
+                <marker date="1540065015000" expanded="true" signature="736:934" ph="{...}" />
+                <marker date="1540065015000" expanded="true" signature="968:1043" ph="{...}" />
+                <marker date="1540065015000" expanded="true" signature="1074:1141" ph="{...}" />
+                <marker date="1540065015000" expanded="true" signature="1169:1233" ph="{...}" />
+                <marker date="1540065015000" expanded="true" signature="1266:1373" ph="{...}" />
+                <marker date="1540065015000" expanded="true" signature="1404:1457" ph="{...}" />
+                <marker date="1540065015000" expanded="true" signature="1484:1537" ph="{...}" />
+                <marker date="1540065015000" expanded="true" signature="1572:1659" ph="{...}" />
+                <marker date="1540065015000" expanded="true" signature="1737:1902" ph="{...}" />
+                <marker date="1540065015000" expanded="true" signature="1980:2000" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6C4904BD-6E8F-4A65-8715-EF9D8FEE1C8D/6f/90dc6fb0/IPoolable`3.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyFacade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6C4904BD-6E8F-4A65-8715-EF9D8FEE1C8D/6f/90dc6fb0/IPoolable`3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/GameInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameInstaller.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="464" />
+    <option name="y" value="66" />
+    <option name="width" value="1618" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Zenject" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Zenject" type="1045f7f1:UnityExplorerNode" />
+              <item name="OptionalExtras" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Zenject" type="1045f7f1:UnityExplorerNode" />
+              <item name="OptionalExtras" type="1045f7f1:UnityExplorerNode" />
+              <item name="ReflectionBaking" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Zenject" type="1045f7f1:UnityExplorerNode" />
+              <item name="OptionalExtras" type="1045f7f1:UnityExplorerNode" />
+              <item name="ReflectionBaking" type="1045f7f1:UnityExplorerNode" />
+              <item name="Common" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Zenject" type="1045f7f1:UnityExplorerNode" />
+              <item name="OptionalExtras" type="1045f7f1:UnityExplorerNode" />
+              <item name="SampleGame2 (Advanced)" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Zenject" type="1045f7f1:UnityExplorerNode" />
+              <item name="OptionalExtras" type="1045f7f1:UnityExplorerNode" />
+              <item name="SampleGame2 (Advanced)" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Zenject" type="1045f7f1:UnityExplorerNode" />
+              <item name="OptionalExtras" type="1045f7f1:UnityExplorerNode" />
+              <item name="SampleGame2 (Advanced)" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Enemy" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Zenject" type="1045f7f1:UnityExplorerNode" />
+              <item name="OptionalExtras" type="1045f7f1:UnityExplorerNode" />
+              <item name="SampleGame2 (Advanced)" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Installers" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Zenject" type="1045f7f1:UnityExplorerNode" />
+              <item name="Source" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Plugins" type="1045f7f1:UnityExplorerNode" />
+              <item name="Zenject" type="1045f7f1:UnityExplorerNode" />
+              <item name="Source" type="1045f7f1:UnityExplorerNode" />
+              <item name="Install" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -13,5 +239,313 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="CodeInspectionSettingsId" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf7e216a-1d21-4b2d-8850-76e6c78a5b23" name="Default Changelist" comment="" />
+      <created>1565689082848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565689082848</updated>
+      <workItem from="1565689084437" duration="3307000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3307000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="464" y="66" width="1618" height="1030" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2740693" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstaller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <marker date="1540064920000" expanded="true" signature="54:7180" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="61:212" ph="/* We'd prefer to make this abstract but Unity 5.3.5 has a bug where references ... */" />
+            <marker date="1540064920000" expanded="true" signature="263:275" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="281:676" ph="/* Derive from this class instead to install like this: ... */" />
+            <marker date="1540064920000" expanded="true" signature="782:1777" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="862:987" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="1083:1183" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="1278:1414" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="1530:1771" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="1906:2517" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="1998:2127" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="2235:2511" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="2664:3307" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="2768:2901" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="3021:3301" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="3472:4147" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="3588:3725" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="3857:4141" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="4330:5037" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="4458:4599" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="4743:5031" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="5238:5977" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="5378:5523" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="5679:5971" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="6020:7178" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="6141:6229" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="6397:7172" ph="{...}" />
+            <marker date="1540064920000" expanded="true" signature="6668:6879" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Common/ReflectionBakingModuleEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <marker date="1565697461819" expanded="false" signature="6:397" ph="..." />
+            <marker date="1565697461819" expanded="true" signature="433:28535" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="481:28533" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="1449:1673" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="1771:1863" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="1993:2109" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="2128:2961" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="2304:2914" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="2423:2489" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="2601:2770" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="2825:2900" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="3005:3065" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="3093:4463" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="4537:6055" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="4844:4902" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="5030:5088" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="5105:5846" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="5878:6019" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="6101:6233" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="6368:6488" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="6598:7218" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="6649:6774" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="6808:6913" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="6952:7057" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="7074:7208" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="7301:7715" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="7360:7676" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="7516:7621" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="7827:9830" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="7933:8068" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="8137:8244" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="9139:9483" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="10010:11028" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="10297:10373" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="10555:10913" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="11206:11991" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="12140:12572" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="12284:12523" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="12716:13611" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="12964:13238" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="13255:13559" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="13756:14534" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="14681:15133" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="14821:15091" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="15277:15715" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="15413:15673" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="16026:20970" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="16967:17065" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="17082:17388" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="17670:18120" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="18554:19014" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="19281:19811" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="19875:20468" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="20885:20960" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="21085:21581" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="21178:21526" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="21388:21512" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="21682:22154" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="21775:22099" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="21974:22085" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="22317:22929" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="22410:22825" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="22613:22811" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="23041:24134" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="23087:23185" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="23228:23345" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="23385:23596" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="23646:23866" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="23883:24124" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="24264:25227" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="24329:24408" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="24456:24559" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="24596:24788" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="25023:25180" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="25480:25964" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="26223:27387" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="26748:27184" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="27559:28527" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="27610:27710" ph="{...}" />
+            <marker date="1565697461819" expanded="true" signature="27727:27827" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Install/MonoInstallerBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <marker date="1540064936000" expanded="false" signature="24:76" ph="..." />
+            <marker date="1540064936000" expanded="true" signature="95:792" ph="{...}" />
+            <marker date="1540064936000" expanded="true" signature="102:253" ph="/* We'd prefer to make this abstract but Unity 5.3.5 has a bug where references ... */" />
+            <marker date="1540064936000" expanded="true" signature="342:790" ph="{...}" />
+            <marker date="1540064936000" expanded="true" signature="405:447" ph="{...}" />
+            <marker date="1540064936000" expanded="true" signature="486:542" ph="{...}" />
+            <marker date="1540064936000" expanded="true" signature="579:668" ph="{...}" />
+            <marker date="1540064936000" expanded="true" signature="715:784" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6C4904BD-6E8F-4A65-8715-EF9D8FEE1C8D/6f/90dc6fb0/IPoolable`3.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Enemy/EnemyFacade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1444">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+          <folding>
+            <marker date="1540065015000" expanded="false" signature="6:32" ph="..." />
+            <marker date="1540065015000" expanded="true" signature="64:2008" ph="{...}" />
+            <marker date="1540065015000" expanded="true" signature="71:197" ph="/* Here we can add some high-level methods to give some info to other ... */" />
+            <marker date="1540065015000" expanded="true" signature="293:2006" ph="{...}" />
+            <marker date="1540065015000" expanded="true" signature="736:934" ph="{...}" />
+            <marker date="1540065015000" expanded="true" signature="968:1043" ph="{...}" />
+            <marker date="1540065015000" expanded="true" signature="1074:1141" ph="{...}" />
+            <marker date="1540065015000" expanded="true" signature="1169:1233" ph="{...}" />
+            <marker date="1540065015000" expanded="true" signature="1266:1373" ph="{...}" />
+            <marker date="1540065015000" expanded="true" signature="1404:1457" ph="{...}" />
+            <marker date="1540065015000" expanded="true" signature="1484:1537" ph="{...}" />
+            <marker date="1540065015000" expanded="true" signature="1572:1659" ph="{...}" />
+            <marker date="1540065015000" expanded="true" signature="1737:1902" ph="{...}" />
+            <marker date="1540065015000" expanded="true" signature="1980:2000" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/OptionalExtras/SampleGame2 (Advanced)/Scripts/Installers/GameInstaller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+          <folding>
+            <marker date="1540064997000" expanded="false" signature="6:32" ph="..." />
+            <marker date="1540064997000" expanded="true" signature="64:3485" ph="{...}" />
+            <marker date="1540064997000" expanded="true" signature="148:3483" ph="{...}" />
+            <marker date="1540064997000" expanded="true" signature="247:2804" ph="{...}" />
+            <marker date="1540064997000" expanded="true" signature="433:586" ph="/* We could just use FromMonoPoolableMemoryPool here instead, but ... */" />
+            <marker date="1540064997000" expanded="true" signature="1226:1379" ph="/* We could just use FromMonoPoolableMemoryPool here instead, but ... */" />
+            <marker date="1540064997000" expanded="true" signature="1644:1785" ph="/* Bullets are simple enough that we don't need to make a subcontainer for them ... */" />
+            <marker date="1540064997000" expanded="true" signature="2050:2203" ph="/* We could just use FromMonoPoolableMemoryPool here instead, but ... */" />
+            <marker date="1540064997000" expanded="true" signature="2858:3018" ph="{...}" />
+            <marker date="1540064997000" expanded="true" signature="3028:3145" ph="/* We could just use FromMonoPoolableMemoryPool above, but we have to use these instead ... */" />
+            <marker date="1540064997000" expanded="true" signature="3240:3260" ph="{...}" />
+            <marker date="1540064997000" expanded="true" signature="3359:3379" ph="{...}" />
+            <marker date="1540064997000" expanded="true" signature="3457:3477" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameInstaller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1565699440910" expanded="true" signature="6:59" ph="..." />
+            <marker date="1565699440910" expanded="true" signature="103:373" ph="{...}" />
+            <marker date="1565699440910" expanded="true" signature="203:371" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

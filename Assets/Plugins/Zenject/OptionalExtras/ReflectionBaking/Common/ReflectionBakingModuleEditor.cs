@@ -90,7 +90,7 @@ namespace Zenject.ReflectionBaking
 
         Regex CreateRegex(string regexStr)
         {
-            return new Regex(regexStr, RegexOptions.Compiled);
+            return new Regex(regexStr);
         }
 
         void SaveImports()
