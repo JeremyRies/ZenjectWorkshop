@@ -15,6 +15,6 @@ public class PongInstaller : MonoInstaller
 		Container.BindInterfacesTo<PlayerModel>().AsSingle();
 
 		Container.Bind<PlayerView>().FromComponentInNewPrefab(_playerViewPrefab).AsSingle();
-		Container.Instantiate<PlayerController>();
+		Container.Bind<PlayerController>().AsSingle().NonLazy();
 	}
 }
