@@ -6,7 +6,7 @@ public class PlayerView : MonoBehaviour
     {
         set
         {
-            transform.position += new Vector3(0,value,0);
+            transform.position = new Vector3(0,value,0);
         }
     }
 }
