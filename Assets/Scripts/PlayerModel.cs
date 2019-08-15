@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class PlayerModel : IPlayerModel
 {
     private readonly IPlayerInput _input;
@@ -11,7 +13,7 @@ public class PlayerModel : IPlayerModel
 
     private void PlayerUpdate()
     {
-        _playerPosition.Value += _input.GetMovement();
+        _playerPosition.Value += _input.GetMovement() * Time.deltaTime;
     }
 
     public IReadOnlyReactiveProperty<float> PlayerPosition

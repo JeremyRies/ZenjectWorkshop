@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UpdateManager : MonoBehaviour, IUpdateManager
 {
-    private List<Action> _updateFunctions;
+    private readonly List<Action> _updateFunctions = new List<Action>();
     private void Update()
     {
         foreach (var updateFunction in _updateFunctions)
