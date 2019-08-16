@@ -521,7 +521,12 @@
         </e>
       </e>
       <e p="Assets\Scripts" t="Include">
-        <e p="GameInstaller.cs" t="Include" />
+        <e p="IReadOnlyReactiveProperty.cs" t="Include" />
+        <e p="PlayerController.cs" t="Include" />
+        <e p="PlayerModel.cs" t="Include" />
+        <e p="PlayerView.cs" t="Include" />
+        <e p="PongInstaller.cs" t="Include" />
+        <e p="ReactiveProperty.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
