@@ -1,6 +1,8 @@
-﻿public class PlayerController
+﻿using Assets.Scripts;
+
+public class PlayerController
 {
-    public PlayerController(PlayerModel model, PlayerView view)
+    public PlayerController(IPlayerModel model, PlayerView view)
     {
         model.PlayerYPosition.Subscribe(view.SetPosition);
     }
