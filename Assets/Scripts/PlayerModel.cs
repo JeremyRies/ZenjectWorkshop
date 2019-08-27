@@ -1,18 +1,27 @@
-﻿namespace Scripts
+﻿using UnityEngine;
+
+public class PlayerModel : IPlayerModel
 {
-    public class PlayerModel
+    private readonly IInputProvider _inputProvider;
+    private readonly IPlayerConfig _playerConfig;
+    private readonly ReactiveProperty<float> _playerYPosition;
+
+    public IReadOnlyReactiveProperty<float> PlayerYPosition
     {
-        private ReactiveProperty<int> _playerYPosition;
+        get { return _playerYPosition; }
+    }
 
-        public IReadOnlyReactiveProperty<int> PlayerYPosition
-        {
-            get { return _playerYPosition; }
-        }
+    public PlayerModel(IUpdateManager updateManager, IInputProvider inputProvider, IPlayerConfig playerConfig)
+    {
+        _inputProvider = inputProvider;
+        _playerConfig = playerConfig;
+        _playerYPosition = new ReactiveProperty<float>();
 
-        public PlayerModel()
-        {
-            _playerYPosition = new ReactiveProperty<int>();
-            _playerYPosition.Value = 5;
-        }
+        updateManager.Subscribe(UpdateLoop);
+    }
+
+    private void UpdateLoop()
+    {
+        _playerYPosition.Value += _inputProvider.VerticalInput() * _playerConfig.SpeedFactor * Time.deltaTime;
     }
 }

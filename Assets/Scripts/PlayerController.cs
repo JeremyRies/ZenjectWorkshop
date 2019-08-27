@@ -1,10 +1,7 @@
-﻿namespace Scripts
+﻿public class PlayerController
 {
-    public class PlayerController
+    public PlayerController(IPlayerModel playerModel, PlayerView playerView)
     {
-        public PlayerController(PlayerModel playerModel, PlayerView playerView)
-        {
-            playerModel.PlayerYPosition.Subscribe(playerView.SetPosition);
-        }
+        playerModel.PlayerYPosition.Subscribe(playerView.SetPosition);
     }
 }

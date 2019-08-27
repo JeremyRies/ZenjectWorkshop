@@ -1,20 +1,22 @@
-﻿using System.Collections.Generic;
-using ModestTree.Util;
-using UnityEngine;
+﻿using UnityEngine;
 using Zenject;
 
-namespace Scripts
+public class PongInstaller : MonoInstaller<PongInstaller>
 {
-    public class PongInstaller : MonoInstaller<PongInstaller>
-    {
-        [SerializeField] private PlayerView _playerViewPrefab;
+    [SerializeField] private PlayerView _playerViewPrefab;
+    [SerializeField] private UpdateManager _updateManager;
+    [SerializeField] private PlayerConfig _playerConfig;
 
-        public override void InstallBindings()
-        {
-            Debug.Log("Hello, World!");
-            Container.Bind<PlayerView>().FromComponentInNewPrefab(_playerViewPrefab).AsSingle();
-            Container.BindInterfacesAndSelfTo<PlayerModel>().AsSingle();
-            Container.BindInterfacesAndSelfTo<PlayerController>().AsSingle().NonLazy();
-        }
+    public override void InstallBindings()
+    {
+        Container.Bind<PlayerView>().FromComponentInNewPrefab(_playerViewPrefab).AsSingle();
+
+        Container.BindInterfacesTo<UpdateManager>().FromInstance(_updateManager).AsSingle();
+        Container.BindInterfacesTo<PlayerConfig>().FromInstance(_playerConfig).AsSingle();
+
+        Container.BindInterfacesTo<InputProvider>().AsSingle();
+
+        Container.BindInterfacesTo<PlayerModel>().AsSingle();
+        Container.Bind<PlayerController>().AsSingle().NonLazy();
     }
 }

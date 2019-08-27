@@ -1,12 +1,9 @@
 ﻿using UnityEngine;
 
-namespace Scripts
+public class PlayerView : MonoBehaviour
 {
-    public class PlayerView : MonoBehaviour
+    public void SetPosition(float pos)
     {
-        public void SetPosition(int pos)
-        {
-            transform.position = new Vector3(0, pos, 0);
-        }
+        transform.position = new Vector3(0, pos, 0);
     }
 }
