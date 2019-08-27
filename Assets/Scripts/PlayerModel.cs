@@ -1,18 +1,28 @@
 using UnityEngine;
 
-public class PlayerModel
+public class PlayerModel : IPlayerModel
 {
-    private ReactiveProperty<int> _playerYPosition;
+    private readonly IInputProvider _inputProvider;
+    private readonly IPlayerConfig _playerConfig;
+    private readonly ReactiveProperty<float> _playerYPosition;
 
-    public IReadOnlyReactiveProperty<int> PlayerYPosition
+    public IReadOnlyReactiveProperty<float> PlayerYPosition
     {
         get { return _playerYPosition; }
     }
 
-    public PlayerModel()
+    public PlayerModel(IUpdateManager updateManager, IInputProvider inputProvider,
+        IPlayerConfig playerConfig)
     {
-        Debug.Log("PlayerModel Created");
-        _playerYPosition = new ReactiveProperty<int>();
-        _playerYPosition.Value = 5;
+        _inputProvider = inputProvider;
+        _playerConfig = playerConfig;
+        _playerYPosition = new ReactiveProperty<float>();
+
+        updateManager.Subscribe(UpdateLoop);
+    }
+
+    private void UpdateLoop()
+    {
+        _playerYPosition.Value += _playerConfig.Speedfactor * Time.deltaTime *_inputProvider.VerticalInput();
     }
 }
