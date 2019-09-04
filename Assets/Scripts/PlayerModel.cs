@@ -14,6 +14,8 @@ public class PlayerModel : IPlayerModel
     public PlayerModel(IUpdateManager updateManager, IInputProvider inputProvider,
         IPlayerConfig playerConfig)
     {
+        Debug.Log("model Setup");
+     
         _inputProvider = inputProvider;
         _playerConfig = playerConfig;
         _playerYPosition = new ReactiveProperty<float>();

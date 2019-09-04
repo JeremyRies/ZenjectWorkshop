@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Rendering;
 using Zenject;
 
 public class PongInstaller : MonoInstaller
@@ -8,14 +9,20 @@ public class PongInstaller : MonoInstaller
     [SerializeField] private PlayerConfig _playerConf;
     public override void InstallBindings()
     {
-        Debug.Log("Hello world");
-        Container.Bind<PlayerView>().FromComponentInNewPrefab(_playerViewPrefab).AsSingle();
-        Container.BindInterfacesTo<PlayerModel>().AsSingle();
-        Container.Bind<PlayerController>().AsSingle().NonLazy();
-
+        Container.Bind<PlayerView>().FromComponentInNewPrefab(_playerViewPrefab).AsTransient();
         Container.BindInterfacesTo<UpdateManager>().FromInstance(_updateManager).AsSingle();
-        Container.BindInterfacesTo<InputProvider>().AsSingle();
-
         Container.BindInterfacesTo<PlayerConfig>().FromInstance(_playerConf);
+
+        var playerLeftContainer = Container.CreateSubContainer();
+        PlayerInstaller.Install(playerLeftContainer,PlayerType.left);
+
+        var playerRightContainer = Container.CreateSubContainer();
+        PlayerInstaller.Install(playerRightContainer,PlayerType.right);
+        
+//        Container.Bind<PlayerType>().FromInstance(PlayerType.right).AsSingle();
+//        Container.BindInterfacesTo<InputProvider>().AsSingle();
+//        
+//        Container.BindInterfacesTo<PlayerModel>().AsSingle();
+//        Container.Bind<PlayerController>().AsSingle().NonLazy();
     }
 }
