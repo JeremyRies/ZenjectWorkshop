@@ -9,14 +9,15 @@ public class PongInstaller : MonoInstaller<PongInstaller>
 
     public override void InstallBindings()
     {
-        Container.Bind<PlayerView>().FromComponentInNewPrefab(_playerViewPrefab).AsSingle();
-
+        Container.Bind<PlayerView>().FromComponentInNewPrefab(_playerViewPrefab).AsTransient();
         Container.BindInterfacesTo<UpdateManager>().FromInstance(_updateManager).AsSingle();
         Container.BindInterfacesTo<PlayerConfig>().FromInstance(_playerConfig).AsSingle();
 
-        Container.BindInterfacesTo<InputProvider>().AsSingle();
 
-        Container.BindInterfacesTo<PlayerModel>().AsSingle();
-        Container.Bind<PlayerController>().AsSingle().NonLazy();
+        var leftContainer = Container.CreateSubContainer();
+        PlayerInstaller.Install(leftContainer, PlayerType.Left);
+        
+        var rightContainer = Container.CreateSubContainer();
+        PlayerInstaller.Install(rightContainer, PlayerType.Right);
     }
 }
