@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\JeremyRies\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\JeremyRies\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ZenjectWorkshop.698637792.00" t="ExcludeRecursive" />
+    <e p="C:\Users\JeremyRies\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\JeremyRies\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_ZenjectWorkshop.698637792.00" t="ExcludeRecursive" />
     <e p="C:\Users\JeremyRies\Desktop\ZenjectWorkshop" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\Plugins" t="Include">
         <e p="Zenject" t="Include">
@@ -527,6 +528,11 @@
         <e p="IPlayerModel.cs" t="Include" />
         <e p="IReadOnlyReactiveProperty.cs" t="Include" />
         <e p="IUpdateManager.cs" t="Include" />
+        <e p="Linq" t="Include">
+          <e p="Editor" t="Include">
+            <e p="LinqTests.cs" t="Include" />
+          </e>
+        </e>
         <e p="PlayerConfig.cs" t="Include" />
         <e p="PlayerController.cs" t="Include" />
         <e p="PlayerModel.cs" t="Include" />
